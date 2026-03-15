@@ -1,0 +1,419 @@
+﻿html, body 
+{
+	margin: 0px; /* Comentario en CSS*/
+	padding: 0px; /* Los margenes son reducidos a 0*/
+	font-family: Segoe UI, Century Gothic,Verdana, Arial;
+	background: #15202B;
+}
+
+body{
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 11px;
+	color: #FFF;
+}
+
+a, img{
+  outline: none; border: none;
+}
+
+#post_box{
+	position: relative;
+	width: auto;
+	margin: auto;
+	height: 160px;
+	top: 0px;
+	text-align: center;
+	background: #253341;
+}
+
+#panel_app{
+	position: relative;
+	height:100vh;
+	padding-top: 10px;
+	background-color: #15202B;
+	text-align: center;
+}
+
+#main_panel, #edit_panel{
+	position: relative;
+	width: auto;
+	margin: auto;
+	height: 90%;
+	overflow: auto;
+	border: 1px solid #253341;
+	padding: 20px;
+}
+
+#txt_post{
+	position: relative;
+	border: 1px solid #AAA;
+	border-radius: 4px;
+	width: 90%;
+	height: 50px;
+	background: #15202B;
+	color: #FFF;
+	margin-bottom: 10px;
+}
+
+.text-danger{
+	color: #F00;
+}
+#img_pr{
+	text-align: center;
+}
+.cajatexto{
+	padding: 5px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 2px solid #000000;
+	width: 300px;
+	color: #FFF;
+	background: #3c4f60;
+}
+
+.post_block{
+    position: relative;
+	width: 95%;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 5px;
+	background: #15202B;
+	height: auto;
+	border: 1px solid #253341;
+	border-top: 1px solid #1DA1F2;
+	padding: 5px;
+}
+.post_file{
+    position: relative;
+	width: auto;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	background: #15202B;
+	height: auto;
+	border: 1px solid #253341;
+	border-top: 1px solid #1DA1F2;
+	padding: 5px;
+}
+#archivo{
+	font-size: 14px;
+    font-family: "Verdana";
+	color: #FFF;
+}
+#nombre_tienda{
+	text-align: center;
+}
+#datos_principales{
+	text-align: center;
+	border:black 4px solid ;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin: auto;
+	width: 60%;
+}
+.post_block:hover{
+	background: #192734;
+}
+
+.published_date{
+	font-size: 10px;
+    font-family: "Verdana";
+    position: relative;
+    color: #BBB;
+	margin: 5px;
+	text-align: right;
+}
+.post_detail{
+	font-size: 14px;
+    font-family: "Verdana";
+    position: relative;
+    color: #FFF;
+	margin: 5px;
+	text-align: justify;
+}
+.lbl_interact{
+	font-size: 14px;
+	font-family: "Verdana";
+}
+.boton{
+	border: 0px;
+	background: #1DA1F2;
+	color: #FFF;
+	height: 34px;
+	border-radius: 4px;
+	cursor: pointer;
+}
+#btn_save, #btn_edit, #btn_save, #dislike {
+	position: relative;
+	width: 80%;
+	margin-top: 10px;
+	margin-right: 10px; 
+}
+#btn_save{
+	margin-bottom: 10px;
+}
+#btn_logout {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 30px;
+	width: 30px;
+}
+#btn_return {
+	right: 0px;
+	top: 0px;
+	height: 30px;
+	width: 30px;
+}
+
+#btn_return {
+	background: #3B5998;
+}
+
+#btn_logout {
+	background: #DC4E41;
+}
+
+#btn_search {
+	position: relative;
+	margin-top: 10px;
+}
+
+.imgpost{
+	float: left;
+	clear: both;
+	position: relative;
+	top: -18px;
+	left: 5px;
+	margin-right: 15px;
+	border-radius: 100px;
+}
+.users_interactions{
+	display: none;
+}
+.btn_ver_interact{
+	background-color: Transparent;
+	border: none;
+    cursor:pointer;
+    overflow: hidden;
+	font-size: 22px;
+	font-family: "Verdana";
+}
+#user_box{
+	position: relative;
+	width: auto;
+	height: 80px;
+	margin: auto;
+	color: #AAA;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background: #253341;
+
+}
+
+#user_box span{
+	float: left;
+	clear: both;
+	position: absolute;
+	top: 22px;
+	left: 75px;
+	color: #FFF;
+	text-shadow: 1px 1px 0px #666;
+}
+
+#photo_profile{
+	position: relative;
+	border-radius: 100px;
+	border: 3px solid #FFF;
+	margin-bottom: 20px;
+}
+#actions{
+	position: relative;
+	bottom: 5px;
+	text-align: right;
+}
+
+#actions a {
+	font-size: 20px;
+	margin: 5px;
+	text-decoration: none;
+	background: unset;
+	border: none;
+	cursor: pointer;
+}
+
+#btn_editar {
+	color: #4CAF50;
+}
+
+#btn_eliminar {
+	color: #DC4E41;
+}
+#datos_box{
+	margin-top: 40px;
+}
+
+.form-group-photo {
+	position: absolute;
+	top: 20px;
+	left: 400px;
+	color: #FFF;
+}
+
+.form-group-photo img{
+	margin-bottom: 20px;
+}
+#insertar_producto{
+	text-align: center;
+	margin-top: 20px;
+}
+#msg_box_container{
+	position: fixed;
+	margin-left: auto;
+	left:0;
+	right:10px;
+	width:350px;
+	top:10px;
+	z-index: 100;
+	font-size: 11px;
+	font-family: 'Arial';
+}
+.boton_x{
+	border: 0px;
+	background: #1DA1F2;
+	color: #FFF;
+	border-radius: 100%;
+	width: 26px;
+	cursor: pointer;
+	
+}
+#btn_buscar{
+	/* position: absolute; */
+	border: 0px;
+	height: 45px;
+	width: 45px;
+	background-image: url("../img/lupa.svg");
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size: 70%;
+	border-radius: 4px;
+	top: 30%;
+}
+.msg_box{
+	position: relative;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	/*text-shadow: 2px 2px 2px #000;*/
+	font-weight: bold;
+	text-align: center;
+}
+
+.msg_box_user{
+	position: relative;
+	border: 1px solid #CCCCCC;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #FFFFFF;
+	/*text-shadow: 2px 2px 2px #000;*/
+	font-weight: bold;
+	text-align: center;
+}
+
+.msg_box_user span{
+	padding-bottom:10px;
+}
+
+.error{
+	background: #C00000;
+}
+
+.success{
+	background: #29CC70;
+}
+
+.info{
+	background: #1F8DB1;
+}
+
+.warning{
+	background: #FF9900;
+}
+
+.lbls_{
+	color: white;
+}
+@keyframes fadeout {
+    from { opacity: 1; visibility: visible; }
+    to   { opacity: 0; visibility: hidden; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; visibility: hidden; }
+    to   { opacity: 1; visibility: visible; }
+}
+
+#txt_calificacion{
+	width: 10%;
+	display: inline-flex;
+	text-align: center;
+}
+.container_comments{
+	padding-left: 70px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	text-align: left;
+}
+
+.comentarios{
+	margin: 10px 20px 15px 15%;
+	background-color: #b6d1d6;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	width: 70%
+	
+}
+.escribirComentario{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#text_comentario{
+	margin-left: 25%;
+	width: 50%;
+	margin-bottom: 10px;
+}
+
+.ventana_flotante{
+	text-align: center;
+}
+
+.respuestas{
+	margin: 10px 20px 15px 15%;
+	background-color: #ffdad4;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	width: 70%
+	
+}
+
+
